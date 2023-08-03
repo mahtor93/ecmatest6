@@ -20,3 +20,11 @@ console.log(person);
 console.log(data);
 
 //rest
+function sum(num,...values){
+    console.log(values);
+    console.log(num+values[0]);
+    return num + values[0];
+}
+
+let result = sum(1,1,2,3,4,5);
+console.log(result);
